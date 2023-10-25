@@ -9,9 +9,9 @@
   },
   "author": "Microsoft",
   "license": "MIT",
-  "main": "lib/cjs/index.js",
-  "module": "lib/esm/index.js",
-  "types": "lib/cjs/index.d.ts",
+  "main": "src/index.ts",
+  "module": "src/index.ts",
+  "types": "src/index.ts",
   "sideEffects": false,
   "scripts": {
     "clean": "rimraf ./lib ./coverage",

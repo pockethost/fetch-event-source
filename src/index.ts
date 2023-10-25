@@ -1,2 +1,2 @@
-export { fetchEventSource, FetchEventSourceInit, EventStreamContentType } from './fetch';
-export { EventSourceMessage } from './parse';
+export { fetchEventSource, type EventStreamContentType, type FetchEventSourceInit } from './fetch';
+export { type EventSourceMessage } from './parse';

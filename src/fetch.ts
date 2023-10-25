@@ -84,7 +84,7 @@ export function fetchEventSource(input: RequestInfo, {
         }
 
         let retryInterval = DefaultRetryInterval;
-        let retryTimer = 0;
+        let retryTimer : any;
         function dispose() {
             document.removeEventListener('visibilitychange', onVisibilityChange);
             window.clearTimeout(retryTimer);
@@ -152,3 +152,4 @@ function defaultOnOpen(response: Response) {
         throw new Error(`Expected content-type to be ${EventStreamContentType}, Actual: ${contentType}`);
     }
 }
+
